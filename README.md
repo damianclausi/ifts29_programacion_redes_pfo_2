@@ -27,8 +27,6 @@ El script `test.sh` es completamente autodocumentado y maneja todo automáticame
 ./test.sh --client  # Cliente interactivo
 ```
 
-**No necesitas leer más documentación - el script te explica todo durante la ejecución.**
-
 ## Requisitos del Sistema
 
 Este proyecto está **diseñado específicamente para WSL** y aprovecha:
