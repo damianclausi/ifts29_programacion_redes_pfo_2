@@ -75,11 +75,11 @@ ifts29_programacion_redes_pfo_2/
 ```
 
 ### Archivos principales:
-- 🖥️ **`servidor.py`** - API REST con Flask, SQLite y autenticación HTTP Basic
-- 💻 **`cliente_consola.py`** - Cliente interactivo optimizado para WSL
-- 🧪 **`test.sh`** - Script autodocumentado para pruebas completas del sistema
-- 📄 **`tareas_bienvenida.html`** - Página web dinámica con información del usuario
-- 📸 **`screenshots/`** - Capturas demostrando el funcionamiento del sistema
+- **`servidor.py`** - API REST con Flask, SQLite y autenticación HTTP Basic
+- **`cliente_consola.py`** - Cliente interactivo optimizado para WSL
+- **`test.sh`** - Script autodocumentado para pruebas completas del sistema
+- **`tareas_bienvenida.html`** - Página web dinámica con información del usuario
+- **`screenshots/`** - Capturas demostrando el funcionamiento del sistema
 
 ## Instalación y Configuración
 
