@@ -29,7 +29,7 @@ El script `test.sh` es completamente autodocumentado y maneja todo automáticame
 
 **No necesitas leer más documentación - el script te explica todo durante la ejecución.**
 
-## 🖥️ Requisitos del Sistema
+## Requisitos del Sistema
 
 Este proyecto está **diseñado específicamente para WSL** y aprovecha:
 - ✅ **WSL (Windows Subsystem for Linux)**: Entorno de ejecución principal
@@ -60,19 +60,26 @@ Este proyecto implementa un sistema de gestión de tareas con una API REST desar
 
 ## Estructura del Proyecto
 
-```
+```text
 ifts29_programacion_redes_pfo_2/
-├── servidor.py              # Servidor Flask con API REST
-├── cliente_consola.py       # Cliente interactivo de consola
-├── test.sh                  # Script unificado de pruebas
-├── requirements.txt         # Dependencias del proyecto
-├── README.md               # Documentación del proyecto
-├── tareas_bienvenida.html  # Página HTML de bienvenida
-├── screenshots/            # Capturas de pantalla del sistema
-│   ├── consola.png         # Cliente de consola funcionando
-│   └── pagina_bienvenida.png # Página web de tareas
-└── tareas.db              # Base de datos SQLite (se crea automáticamente)
+├── servidor.py                   # Servidor Flask con API REST
+├── cliente_consola.py            # Cliente interactivo de consola  
+├── test.sh                       # Script unificado de pruebas
+├── requirements.txt              # Dependencias del proyecto
+├── README.md                     # Documentación del proyecto
+├── tareas_bienvenida.html        # Página HTML de bienvenida
+├── screenshots/                  # Capturas de pantalla del sistema
+│   ├── consola.png              # Cliente de consola funcionando
+│   └── pagina_bienvenida.png    # Página web de tareas
+└── tareas.db                     # Base de datos SQLite (se crea automáticamente)
 ```
+
+### Archivos principales:
+- 🖥️ **`servidor.py`** - API REST con Flask, SQLite y autenticación HTTP Basic
+- 💻 **`cliente_consola.py`** - Cliente interactivo optimizado para WSL
+- 🧪 **`test.sh`** - Script autodocumentado para pruebas completas del sistema
+- 📄 **`tareas_bienvenida.html`** - Página web dinámica con información del usuario
+- 📸 **`screenshots/`** - Capturas demostrando el funcionamiento del sistema
 
 ## Instalación y Configuración
 
